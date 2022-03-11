@@ -1,0 +1,923 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Playfair+Display:wght@300;400;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    margin: 45px 0px;
+}
+.container{
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.nav-menu ul li{
+    display: inline;
+    margin-left: 45px;
+    
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    color: #111111;
+    transition: all .5s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-menu ul li a:hover{
+    border-bottom: 5px solid #e8bf5d;
+    padding-bottom: 15px;
+}
+
+.banner{
+    background-image: url(image/01_index.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 245px 0px 300px;
+    position: relative;
+    z-index: 9;
+    margin-bottom: 100px;
+}
+.banner-content a{
+    position: absolute;
+    bottom: 105px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    text-decoration: none;
+    left: 630px;
+}
+
+.banner-content a:hover{
+    color: #e43617;
+}
+.btn{
+    right: 215px;
+    position: absolute;
+    bottom: 90px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #e8bf5d;
+    border: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: linear .3s;
+
+}
+
+.btn:hover{
+    background-color: #e7ab1f;
+}
+
+.my-width{
+    max-width: 770px;
+    margin: auto;
+}
+.my-width::before{
+    content: "01";
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 194.20px;
+    color: #f3f3f3;}
+.area h3{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.area{
+    border-left: 2px solid #e8bf5d;
+    margin-top: -185px;
+    
+}
+
+.area p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+
+.mywidth{
+    max-width: 1070px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content1{
+    margin-bottom: 60px;
+}
+.history h3{
+    margin-top: ;
+}
+.text b{
+    display: inline;
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+   
+}
+.text p{
+    margin-top: -28px;
+    margin-left: 80px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+
+}
+.history{
+    max-width: 535px;
+}
+
+.expertise{
+    
+    max-width: 535px;
+}
+.expertise h3{
+    margin-left: 30px;
+}
+.expertise p{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 2.5em;
+}
+
+.practise{
+    margin-top: 100px;
+   background-image: url(image/practise-area.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 146px 0px 156px;
+   position: relative;
+   z-index: 9;
+   margin-bottom: 74px;
+}
+.practise-area::before{
+    content: "02";
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 194.20px;
+    margin-top: -200px;
+    color: #1d1d1d;
+}
+.practise-content{
+    margin-top: -190px;
+    border-left: 2px solid #e7ab1f;
+   
+}
+
+.practise-content h2{
+   
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.practise-content h2{
+    margin-left: 10px;
+}
+
+.practise-content p{
+    margin-left: 10px;
+}
+.practise-area{
+    max-width: 785px;
+    margin: auto;
+    color: #ffffff;
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+
+
+.practise-area p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+
+.width{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    color: #ffffff;
+}
+
+.service-content{
+    margin-left: 30px;
+}
+
+.service-content h3{
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+.service-content p{
+    margin-top: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.service-parent{
+    margin-left: 30px;
+}
+
+.meet-content{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.meet-area::before{
+    content: "03";
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 194.20px;
+    margin-top: 200px;
+    color: #1d1d1d;
+    opacity: .1;
+}
+.meet-area{
+    max-width: 700px;
+    margin: auto;
+   
+    margin-bottom: 70px;
+}
+
+.meet-text{
+    margin-top: -195px;
+    border-left: 2px solid #e8bf5d;
+}
+.meet-area h2{
+    margin-left: 10px;
+    font-size: 31px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+.meet-area p{
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+figcaption{
+    margin-top: 20px;
+}
+figcaption h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+figcaption p{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.claint-banner{
+    background-image: url(image/client-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 75px;
+    margin-top: 100px;
+    padding: 100px 0px 474px;
+    
+}
+
+.clint{
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.clint::before{
+    content: "04";
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 194.20px;
+    color: #272727}
+
+    .claint-content{
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+    }
+.claint-content{
+    position: relative;
+}
+
+.clint-pic img{
+    margin-top: 65px;
+    margin-left: 150px;
+    
+}
+.shade{
+    top: 50px;
+    left: 135px;
+    position: absolute;
+}
+
+  
+.claint-text{
+    border-left: 2px solid #e8bf5d;
+    color: #ffffff;
+    margin-left: -6px;
+    margin-top: -190px;
+}
+
+.claint-text h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.claint-text p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.claint-content{
+    max-width: 1070px;
+    margin: auto;
+    display: flex;
+}
+
+.clint-cmnt{
+    position: relative;
+}
+.boolting{
+    position: absolute;
+    top: 360px;
+    margin-left: -135px;
+}
+.qoute{
+    position: absolute;
+    top: 55px;
+    left: 20px;
+
+}
+.clint-cmnt p{
+     line-height: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 62px;
+    margin-top: 65px;
+}
+
+.clint-cmnt h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 62px;
+    color: #ffffff;
+    margin-top: 45px;
+}
+
+.clint-cmnt a{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 62px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.recent-publication{
+    
+}
+
+.recent-text{
+    max-width: 785px;
+    margin: auto;
+    
+    
+}
+.recent-content{
+    border-left: #e8bf5d 2px solid;
+    margin-top: -185px;
+    
+}
+
+.recent-content h2{
+    margin-left: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.recent-content p{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.recent-text::before{
+    content: "05";
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 194.20px;
+    color: #f3f3f3;
+}
+
+.recent-post{
+    max-width: 1170px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+figcaption h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+figcaption a{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 1.5em;
+    margin-top: 40px;
+}
+
+figcaption p{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline;
+    margin-left: 10px;
+    
+
+}
+
+figcaption span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.fa, .fas {
+    font-weight: 900;
+    margin-top: 40px;
+}
+.text{
+    margin-bottom: 40px;
+}
+
+.text p{
+    margin-left: 140px;
+}
+.div{
+    margin-left: 150px;
+    display: inline;
+    
+}
+.div a{
+    margin-left: 10px;
+}
+
+.recent-post{
+    margin-bottom: 100px;
+}
+
+.parent-div{
+    margin-top: 10px;
+    border-bottom: #e7ab1f 2px solid;
+}
+.Faq{
+    background-image: url(image/practise-area.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 220px 0px 205px;
+    position: relative;
+    z-index: 9;
+    margin-bottom: 100px;
+}
+.faq-mwidth{
+    max-width: 805px;
+    margin: auto;
+    color: #f3f3f3;
+    margin-top: -195px;
+}
+
+.faq-mwidth::before{
+    content: "06";
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 194.20px;
+    color: #272727;}
+
+    .faq-content{
+        margin-top: -183px;
+        border-left: 2px solid #e7ab1f;
+    }
+
+    .faq-content h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .faq-content p{
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+
+    .faq-maxwidth{
+        max-width: 1150px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .faq-text{
+        max-width: 550px;
+        color: #f3f3f3;
+        margin-top: 80px;
+        margin-left: 145px;
+        justify-content: space-between;
+    }
+    .faq-text span{
+        margin-left: 20px;
+        color: #e8bf5d;
+    }
+    .faq-text p{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        border-bottom: #e8bf5d 2px solid;
+        line-height: 3em;
+        
+        
+    }
+
+    .plas{
+        
+    }
+    .faq-para{
+        max-width: 550px;
+        color: #1d1d1d;
+        background-color: #e8bf5d;
+        margin-top: 80px;
+        margin-left: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 2em;
+        padding: 40px;
+        border-radius: 10px;
+    }
+    .fell{
+        /* max-width: 880px; */
+        display: flex;
+       
+        justify-content: space-between;
+        
+    }
+    .fell-your{
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .fell-your::before{
+        content: "07";
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 194.20px;
+        color: #f3f3f3;}
+
+    .fell-contract{
+        border-left: #e8bf5d 2px solid;
+        margin-top: -185px;
+    }
+
+    .fell-contract h2{
+        margin-left: 10px;
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+
+    .fell-contract p{
+        margin-left: 10px;
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 65px;
+    }
+
+    .form-map{
+        max-width: 880px;
+        margin: auto;
+        display: flex;
+
+    }
+
+    .form input{
+        border: none;
+        padding: 15px;
+        border-bottom: 1px solid gray;
+        margin-left: 200px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        font-style: italic;
+        border-bottom-left-radius: 24px;
+    }
+
+    .form textarea{
+        border: none;
+        padding: 15px;
+        border-bottom: 1px solid gray;
+        margin-left: 200px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        font-style: italic;
+        border-bottom-left-radius: 24px;
+    }
+    .form button{
+        margin-left: 200px;
+        padding: 10px 20px;
+        background-color: #e8bf5d;
+        font-family: 'Playfair Display', serif;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        margin-top: 35px;
+        transition: .5s linear;
+    }
+
+    .form button:hover{
+        background-color: #e7ab1f;
+    }
+
+    .map{
+        background-image: url(image/mapbg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 40px;
+        padding-left: 20px;
+    
+        
+    }
+    .footer{
+        background-color: #1d1d1d;
+        height: 80px;
+        margin-top: 50px;
+    }
+    .name{
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        color: #f3f3f3;
+        
+    }
+
+    .name p{
+        margin-top: 35px;
+        color: #e8bf5d;
+    }
+
+    .icon{
+        margin-top: 35px;
+        cursor: pointer;
+        
+    }
+    .icon ul li{
+        display: inline;
+        list-style-type: none;
+        margin-left: 10px;
+        
+    }
+
+    .icon ul li a{
+        color: #e7ab1f;
+    }
+    @media (max-width:1200px){
+
+        .logo h1{
+            margin-left: 15px;
+        }
+
+        .nav-menu ul li a {
+            margin-right: 15px;
+        }
+
+        .meet-content {
+            max-width: 1100px;
+            gap: 20px;
+            margin-right: 70px;
+        }
+        .recent-post {
+            max-width: 1100px;
+            gap: 15px;
+            margin-left: 30px;
+        }
+
+        .faq-maxwidth {
+            max-width: 1100px;
+            margin-left: -25px;}
+
+            .form input {
+                margin-left: 35px;
+            }
+            .form textarea{
+                margin-left: 35px;
+            }
+            .form button{
+                margin-left: 35px;
+            }
+
+            .map{
+                margin-left: 110px;
+            }
+
+            .name p{
+                margin-left: 120px;
+            }
+            .icon{
+                margin-right: 175px;
+            }
+        figcaption h2{
+            margin-left: 10px;
+        }
+    }
+    @media (max-width:992px){
+        .container {
+            max-width: 992px;
+            padding: 0px 15px;
+          }
+          .logo h1 {
+            margin-top: -10px;
+        }
+
+        .nav-menu ul li {
+            margin-left: 15px;
+           
+          }
+          .mywidth {
+            max-width: 905px;
+          }
+          .text p {
+            margin-left: 70px;
+          }
+          .expertise p {
+            font-size: 15px;
+            line-height: 2.5em;
+          }
+          .width {
+            max-width: 900px;
+           
+          }
+          .service-parent {
+            margin-left: 20px;
+          }
+
+          .clint-cmnt p {
+           
+            margin-left: 49px;
+            
+          }
+          .faq-text {
+            margin-left: 60px;
+            
+          }
+
+          .faq-para {
+            margin-top: 110px;
+          }
+          .qoute {
+            left: 15px;
+          }
+    }
+
+    @media (max-width: 768px){
+        .nav-menu ul li {
+            margin-left: -5px;
+          }
+          .btn{
+              right: 25px;
+          }
+
+          .banner-content a{
+              left: 365px;
+          }
+          .area p {
+            font-size: 15px;
+           
+          }
+          .area {
+            margin-left: 20px;
+          }
+          .area h3 {
+            font-size: 25px;
+            
+          }
+          .my-width::before {
+            margin-left: 20px;
+          }
+
+          .history h3{
+            margin-left: 20px;
+          }
+          .text b {
+            font-size: 15px;
+            margin-left: 20px;
+          }
+          .expertise {
+            max-width: 440px;
+          }
+          .expertise p {
+            font-size: 14px;
+            text-align: justify;
+            margin-right: 20px;
+            line-height: 2em;
+          }
+          .text p {
+            font-size: 14px;
+         
+          }
+          .practise-content {
+          
+            margin-left: 20px;
+          }
+          .practise-area::before {
+            font-size: 180.2px;
+          
+            margin-left: 20px;
+          }
+          .practise-content h2 {
+            font-size: 25px;
+           
+          }
+          .practise-area p {
+            font-size: 16px;
+            
+          }
+          .shade {
+            left: 50px;
+            
+          }
+          .clint-pic img {
+           
+            margin-left: 65px;
+          }
+          .clint-cmnt p {
+            margin-left: 40px;
+            font-size: 10px;
+          }
+          .map {
+            margin-left: 40px;
+          }
+    }
